@@ -52,7 +52,7 @@ while coupon_index < coupons.length
   new_coupon = {:item => "#{coupon_item_name} W/COUPON", :price => coupon[:cost]/coupon[:num], :clearance => true, :count => coupon[:num]}
 
   cart.push(new_coupon)
-  end 
+  end
   coupon_index += 1
 end
 
