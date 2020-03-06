@@ -42,7 +42,7 @@ def apply_coupons(cart, coupons)
   # REMEMBER: This method **should** update cart
 coupon_index = 0
 while coupon_index < coupons.length
-  coupons[0][:item] += " W/COUPON"
+  coupons[0][:item] += "W/COUPON"
   coupon_index += 1
 end
 end
