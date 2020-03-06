@@ -70,10 +70,10 @@ def apply_clearance(cart)
   #
   # REMEMBER: This method **should** update cart
 item_index = 0
-if cart[item_index][:clearance]
-if item_index < cart.length
-  cart_price = cart[item_index][:price]
-
+if item_index < cart.length && cart[item_index][:clearance] == true
+  cart_price = (cart[item_index][:price])*0.8
+  cart[item_index][:price] = cart_price
+end
 end
 cart
 end
