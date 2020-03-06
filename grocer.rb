@@ -43,6 +43,7 @@ def apply_coupons(cart, coupons)
 coupon_index = 0
 while coupon_index < coupons.length
   coupons[0][:item] = coupons[0][:item]" W/COUPON"
+  coupons[0][:clearance] = true
   coupon_index += 1
 end
 end
