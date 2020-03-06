@@ -90,4 +90,7 @@ counter = 0
     total += final_cart[counter][:price] * final_cart[counter][:count]
     counter += 1
   end
+  if final_cart > 100 
+    final_cart = final_cart - (final_cart*0.10)
+  end
 end
