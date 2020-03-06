@@ -75,6 +75,7 @@ while item_index < cart.item_index
   end
   item_index += 1
 end
+cart
 end
 
 def checkout(cart, coupons)
