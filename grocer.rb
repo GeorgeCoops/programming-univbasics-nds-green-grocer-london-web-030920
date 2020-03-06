@@ -45,6 +45,7 @@ if coupons.length >0
 
 while coupon_index < coupons.length
   coupon_item_name = coupons[coupon_index][:item]
+
   cart.push()
   coupon_index += 1
 end
@@ -52,6 +53,7 @@ end
 else
   return cart
 end
+
 cart
 end
 
