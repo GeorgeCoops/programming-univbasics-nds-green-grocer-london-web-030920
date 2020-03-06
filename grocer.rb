@@ -91,6 +91,6 @@ counter = 0
     counter += 1
   end
   if total > 100
-    total = total - (total*0.10)
+    total -= (total*0.10)
   end
 end
