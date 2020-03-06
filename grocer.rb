@@ -72,10 +72,9 @@ def apply_clearance(cart)
 item_index = 0
 if item_index < cart.length
   cart_price = cart[item_index][:price]
-  cart_price = cart_price*0.80
-  cart_price.round(2)
-  item_index += 1
+  
 end
+cart
 end
 
 def checkout(cart, coupons)
