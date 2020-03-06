@@ -47,9 +47,7 @@ while coupon_index < coupons.length
   coupon_item_name = coupons[coupon_index][:item]
   coupon = coupons[coupon_index]
 
-  coupon[:item] = []
-
-  {:item => "#{name} W/COUPON", :price => 3.00, :clearance => false, :count => 1}
+  coupon = {:item => "#{name} W/COUPON", :price => 3.00, :clearance => true, :count => 1}
 
   coupon_index += 1
 end
