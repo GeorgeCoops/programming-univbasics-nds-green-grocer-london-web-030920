@@ -48,7 +48,7 @@ while coupon_index < coupons.length
   coupons[coupon_index][:item] = ["#{name} W/COUPON"]
 
 
-  
+
   coupon_index += 1
 end
 
