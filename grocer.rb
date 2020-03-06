@@ -80,7 +80,7 @@ cart
 end
 
 def checkout(cart, coupons)
- cart_total = 0 
+ cart_total = 0
 
  cart_total
 end
