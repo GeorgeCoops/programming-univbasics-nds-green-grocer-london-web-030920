@@ -48,7 +48,7 @@ while coupon_index < coupons.length
   coupon = coupons[coupon_index]
   binding.pry
   cart_item = find_item_by_name_in_collection(coupon_item_name, cart)
-  if cart_item 
+  if cart_item && coupons[coupon_index][:num] == 
   new_coupon = {:item => "#{coupon_item_name} W/COUPON", :price => coupon[:cost]/coupon[:num], :clearance => true, :count => coupon[:num]}
 
   cart.push(new_coupon)
