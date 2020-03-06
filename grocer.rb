@@ -48,14 +48,14 @@ while coupon_index < coupons.length
   coupons[coupon_index][:item] = ["#{name} W/COUPON"]
 
 
-  cart.push()
+  
   coupon_index += 1
 end
 
 else
   return cart
 end
-
+cart.push(coupons)
 cart
 end
 
