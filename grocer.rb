@@ -72,7 +72,7 @@ def apply_clearance(cart)
 item_index = 0
 while item_index < cart.item_index
   if cart[item_index][:price] = (cart[item_index][:price] - (cart[item_index][:price]*20))
-    
+
   end
 end
 end
