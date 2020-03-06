@@ -73,7 +73,9 @@ item_index = 0
 if item_index < cart.length && cart[item_index][:clearance] == true
   cart_price = (cart[item_index][:price])*0.8
   cart[item_index][:price] = cart_price
-end
+  item_index += 1
+else
+  item_index += 1
 end
 cart
 end
