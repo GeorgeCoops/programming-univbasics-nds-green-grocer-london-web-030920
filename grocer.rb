@@ -72,7 +72,7 @@ def apply_clearance(cart)
 item_index = 0
 if item_index < cart.length
   cart_price = cart[item_index][:price]
-  
+
 end
 cart
 end
