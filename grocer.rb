@@ -82,5 +82,7 @@ end
 def checkout(cart, coupons)
  cart_total = 0
 
+def consolidate_cart(cart)
+
  cart_total
 end
