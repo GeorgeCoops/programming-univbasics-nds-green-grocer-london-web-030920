@@ -70,7 +70,7 @@ def apply_clearance(cart)
   #
   # REMEMBER: This method **should** update cart
 counter = 0
-while item_index < cart.item_index
+while counter < cart.item_index
   if cart[counter][:clearance]
     cart[counter][:price] = (cart[counter][:price] - (cart[counter][:price]*0.20)).round(2)
   end
