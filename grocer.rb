@@ -76,6 +76,7 @@ if item_index < cart.length
   cart_price.round(2)
   item_index += 1
 end
+end
 
 def checkout(cart, coupons)
   # Consult README for inputs and outputs
