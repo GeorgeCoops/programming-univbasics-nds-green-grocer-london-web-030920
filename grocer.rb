@@ -73,6 +73,7 @@ item_index = 0
 if item_index < cart.length
   cart_price = cart[item_index][:price]
   cart_price = cart_price*0.75
+  cart_price.round(2)
   item_index += 1
 end
 
