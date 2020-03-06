@@ -47,8 +47,6 @@ while coupon_index < coupons.length
   coupon_item_name = coupons[coupon_index][:item]
   coupons[coupon_index][:item] = ["#{name} W/COUPON"]
 
-binding.pry
-
   cart.push()
   coupon_index += 1
 end
